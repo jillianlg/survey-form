@@ -9,17 +9,18 @@
 </head>
 <body>
   <div class="container">
-    <h1>Please fill out the inputs below</h1>
+    <h1>Favorite Things Survey</h1>
+    <h3>Please fill out the questions below:</h3>
     <form id="survey">
       <div class="form-group">
       <!-- fill in the blank: Name-->
         <label for="name">What is your name?</label>
         <input id="name" class="form-control" type="text">
       </div>
-      <!-- Date input: Birthday -->
+      <!-- Date input: DOB -->
       <div class="form-group">
-        <label for="born">When were you born?</label>
-        <input id="born" class="form-control" type="date">
+        <label for="dob">When were you born?</label>
+        <input id="dob" class="form-control" type="date">
       </div>
       <!-- Select boxes:Italian, American, Sea Food, Thai, Greek, Soul Food, Japanese, Chinese, Mexican-->
       <div class="form-group">
@@ -41,7 +42,7 @@
       <!-- Radio button: Pop, Soul, R&B, Jazz, Country, Other-->
       
       <div class="form-group">
-        <label for="music">Favroite style of music?</label>
+        <label for="music">What is your favroite style of music?</label>
         <div class="row">
           <div class=col-4>
             <div class="radio">
@@ -113,5 +114,12 @@
       <button type="submit">SUBMIT</button>
     </form>
   </div>
+
+  <!-- submit response -->
+  <div class="container">
+    <div id="response">
+      <h4>Thank you for completeing the survey!</h4>
+  </div>
+
 </body>
 </html>

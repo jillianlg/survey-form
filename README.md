@@ -1,6 +1,6 @@
 # _PPOJECT TITLE_
 
-#### _Application of form input types, DATE.2020_
+#### _Application of form input types, 8.12.2020_
 
 #### By _**Jillian Gibson and David McCaslin**_
 
@@ -29,7 +29,7 @@ _Questions or comments can be directed to [Jillian Gibson](jillian.l.gibson@gmai
 * _HTML_
 * _JavaScript_
 * _Bootstrap_
-* -jQuery
+* _jQuery_
 
 ### License
 

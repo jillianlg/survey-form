@@ -12,29 +12,103 @@
     <h1>Please fill out the inputs below</h1>
     <form id="survey">
       <div class="form-group">
-        <label for="question1">What is your name?</label>
-        <!-- fill in the blank -->
-        <input id="question1" class="form-control" type="text">
+      <!-- fill in the blank: Name-->
+        <label for="name">What is your name?</label>
+        <input id="name" class="form-control" type="text">
       </div>
       <!-- Date input: Birthday -->
       <div class="form-group">
-        <label for="question2">When were you born?</label>
-        <input>
+        <label for="born">When were you born?</label>
+        <input id="born" class="form-control" type="date">
       </div>
       <!-- Select boxes:Italian, American, Sea Food, Thai, Greek, Soul Food, Japanese, Chinese, Mexican-->
       <div class="form-group">
-        <label for="question3">What is your favorite type of food?</label>
-        <input>
+        <label for="cuisine">What is your favorite type of cuisine?</label>
+          <select class="form-control" id="cuisine">
+            <option>Italian</option>
+            <option>American</option>
+            <option>Sea Food</option>
+            <option>Thai</option>
+            <option>Greek</option>
+            <option>Soul Food</option>
+            <option>Japanese</option>
+            <option>Chinese</option>
+            <option>Mexican</option>
+            <option>Vegan</option>
+            <option>Other</option>
+          </select>
       </div>
       <!-- Radio button: Pop, Soul, R&B, Jazz, Country, Other-->
+      
       <div class="form-group">
-        <label for="question4">Favroite style of music?</label>
-        <input>
+        <label for="music">Favroite style of music?</label>
+        <div class="row">
+          <div class=col-4>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Pop" checked>
+                Pop
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="K-pop">
+                K-pop
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="R&B">
+                R & B
+              </label>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Rap">
+                Rap
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Rock">
+                Rock
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Country">
+                Country
+              </label>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Punk">
+                Punk
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Latin">
+                Rock
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Other">
+                Other
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- color wheel: Favorite color -->
       <div class="form-group">
-        <label for="question5">What is your favorite color?</label>
-        <input>
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
       </div>
       <button type="submit">SUBMIT</button>
     </form>
